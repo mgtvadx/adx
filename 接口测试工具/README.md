@@ -9,7 +9,7 @@ Linux操作系统
 ## 使用方法 ##
 
 
-1. 在Linux平台上赋予该二进制可执行权限， chmod 777 dsp_check_tool
+1. 在Linux平台上赋予该二进制可执行权限
 2. 运行dsp_check_tool  运行命令 ./dsp_check_tool -h ，查看帮助信息
 3. 根据不同的测试需求选择相应的参数。带参数运行dsp_check_tool，参数具体含义如下：  
     - -d    `打印详细  `   
@@ -33,6 +33,6 @@ Linux操作系统
 - price：
    -  rtb广告中必须大于或者等于请求中的min_cpm_price
    -  首选交易广告必须大于请求中的price
-- title：必须返回素创意标题
+- title：必须返回素创意标题，此字段为通栏广告必选字段
 
 
