@@ -25,8 +25,8 @@ type DSPDevice struct {
 	CityCode          int    `json:"city_code,omitempty"`
 	Ua                string `json:"ua,omitempty"`
 	ConnectionType    int    `json:"connectiontype,omitempty"` //网络环境，0-wifi，1-mobile，2-no network
-	Carrier           int    `json:"carrier,omitempty"`        //运营商，0-未知，1-中国移动，2-中国联通，3-中国电信，4-互联网电视
-	Type              int    `json:"type,omitempty"`           //
+	Carrier           int    `json:"carrier"`        //运营商，0-未知，1-中国移动，2-中国联通，3-中国电信，4-互联网电视
+	Type              int    `json:"type,omitempty"`           
 	Version           string `json:"version,omitempty"`
 	ScreenOrientation int    `json:"screen_orientation,omitempty"`
 	Openudid          string `json:"openudid,omitempty"`
